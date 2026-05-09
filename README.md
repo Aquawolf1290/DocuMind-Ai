@@ -12,6 +12,18 @@ Repository: [https://github.com/Aquawolf1290/DocuMind-Ai](https://github.com/Aqu
 
 ![DocuMind AI sign in](assets/documind-login.png)
 
+### AI Operations Dashboard
+
+![DocuMind AI dashboard](assets/documind-dashboard.png)
+
+### Document AI Insights
+
+![DocuMind AI insights](assets/documind-ai-insights.png)
+
+### Visual AI Workflow
+
+![DocuMind AI workflow](assets/documind-workflow.png)
+
 ## Why This Project
 
 DocuMind AI is built as a portfolio-grade enterprise AI project for CSE/AI students and early-career engineers. It demonstrates practical AI engineering, document automation, secure SaaS architecture, RAG-style retrieval, OCR, compliance checks, user authentication, and a polished enterprise dashboard.
