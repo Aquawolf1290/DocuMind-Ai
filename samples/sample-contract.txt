@@ -1,0 +1,11 @@
+Service Agreement
+
+This agreement is made between Acme Analytics and Northstar Retail for AI document processing services. The service provider shall process invoices, policies, and monthly reports for automated review.
+
+The client must submit source documents by the fifth day of every month. Payment terms require the client to pay the total amount within 30 days of invoice receipt.
+
+The agreement includes confidentiality obligations for all business records and customer data. Both parties should review data privacy controls before production deployment.
+
+The contract is effective from 1 June 2026 and renews annually unless either party provides written termination notice.
+
+For coordination, contact operations@example.com or +91 98765 43210.

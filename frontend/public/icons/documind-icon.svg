@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="DocuMind AI">
+  <rect width="512" height="512" rx="104" fill="#08090f"/>
+  <path d="M112 132c0-22 18-40 40-40h140l108 108v180c0 22-18 40-40 40H152c-22 0-40-18-40-40V132Z" fill="url(#doc)"/>
+  <path d="M292 92v86c0 13 11 24 24 24h84" fill="#111827"/>
+  <path d="M176 244h160M176 292h160M176 340h100" stroke="#e0f2fe" stroke-width="22" stroke-linecap="round"/>
+  <circle cx="362" cy="352" r="70" fill="url(#ai)" stroke="#cffafe" stroke-opacity=".55" stroke-width="10"/>
+  <path d="M336 352h52M362 326v52" stroke="#08111f" stroke-width="18" stroke-linecap="round"/>
+  <defs>
+    <linearGradient id="doc" x1="112" x2="412" y1="92" y2="420" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#22d3ee"/>
+      <stop offset=".55" stop-color="#8b5cf6"/>
+      <stop offset="1" stop-color="#f472b6"/>
+    </linearGradient>
+    <linearGradient id="ai" x1="306" x2="430" y1="294" y2="420" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#34d399"/>
+      <stop offset="1" stop-color="#22d3ee"/>
+    </linearGradient>
+  </defs>
+</svg>

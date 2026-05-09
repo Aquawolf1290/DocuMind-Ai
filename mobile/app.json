@@ -1,0 +1,52 @@
+{
+  "expo": {
+    "name": "DocuMind AI",
+    "slug": "documind-ai",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "scheme": "documind",
+    "userInterfaceStyle": "dark",
+    "newArchEnabled": true,
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.documind.ai",
+      "infoPlist": {
+        "NSAppTransportSecurity": {
+          "NSAllowsArbitraryLoads": true
+        }
+      }
+    },
+    "android": {
+      "package": "com.documind.ai",
+      "permissions": [
+        "INTERNET"
+      ],
+      "adaptiveIcon": {
+        "backgroundColor": "#08090f"
+      }
+    },
+    "web": {
+      "bundler": "metro"
+    },
+    "extra": {
+      "apiBase": "http://192.168.1.3:8010/api",
+      "eas": {
+        "projectId": "afcdbead-2933-49a1-820b-91a8cd4fcc66"
+      }
+    },
+    "plugins": [
+      "expo-font",
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "usesCleartextTraffic": true
+          }
+        }
+      ]
+    ]
+  }
+}

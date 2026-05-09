@@ -1,0 +1,38 @@
+{
+  "name": "DocuMind AI",
+  "short_name": "DocuMind",
+  "description": "Enterprise AI workspace for document intelligence, grounded RAG, risk monitoring, and PII detection.",
+  "id": "/?documind=1",
+  "start_url": "/?documind=1",
+  "scope": "/",
+  "display": "standalone",
+  "display_override": ["window-controls-overlay", "standalone", "browser"],
+  "orientation": "any",
+  "background_color": "#08090f",
+  "theme_color": "#08090f",
+  "categories": ["productivity", "business", "utilities"],
+  "icons": [
+    {
+      "src": "/icons/documind-icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Open AI Operations",
+      "short_name": "Operations",
+      "description": "Open the DocuMind AI operations center.",
+      "url": "/?documind=1#dashboard",
+      "icons": [{ "src": "/icons/documind-icon.svg", "sizes": "any", "type": "image/svg+xml" }]
+    },
+    {
+      "name": "Open Enterprise RAG",
+      "short_name": "RAG",
+      "description": "Open the citation-grounded assistant.",
+      "url": "/?documind=1#rag",
+      "icons": [{ "src": "/icons/documind-icon.svg", "sizes": "any", "type": "image/svg+xml" }]
+    }
+  ]
+}
