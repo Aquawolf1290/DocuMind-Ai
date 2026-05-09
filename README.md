@@ -4,7 +4,7 @@
 
 DocuMind AI is a production-style AI document intelligence platform that converts unstructured documents into searchable, structured, and actionable business intelligence. It includes OCR-assisted ingestion, structured extraction, risk and PII analysis, citation-based RAG Q&A, workflow visualization, authentication, and user-scoped document storage.
 
-Repository: [https://github.com/Astroboi-afk/DocuMind-Ai](https://github.com/Astroboi-afk/DocuMind-Ai)
+Repository: [https://github.com/Aquawolf1290/DocuMind-Ai](https://github.com/Aquawolf1290/DocuMind-Ai)
 
 ## Screenshots
 
@@ -101,7 +101,7 @@ SQLite Database + Local/S3-ready File Storage
 ### 1. Clone The Repository
 
 ```bash
-git clone https://github.com/Astroboi-afk/DocuMind-Ai.git
+git clone https://github.com/Aquawolf1290/DocuMind-Ai.git
 cd DocuMind-Ai
 ```
 
