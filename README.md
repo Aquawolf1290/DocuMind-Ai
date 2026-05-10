@@ -153,6 +153,28 @@ Backend health check:
 http://127.0.0.1:8010/api/health
 ```
 
+If you already created `.venv` earlier and new dependencies were added, run this again:
+
+```bash
+cd backend
+.venv\Scripts\activate
+pip install -r requirements.txt
+```
+
+This installs required backend packages such as FastAPI, PyPDF, PyMuPDF, pytesseract, scikit-learn, and Google auth support.
+
+### OCR Requirement
+
+For scanned PDFs and image OCR, install Tesseract OCR on your machine.
+
+Windows recommended installer:
+
+```text
+https://github.com/UB-Mannheim/tesseract/wiki
+```
+
+After installing Tesseract, restart the backend. Without Tesseract, native PDF/DOCX/TXT extraction still works, but OCR for scanned/image documents may fail or be incomplete.
+
 ### Frontend
 
 ```bash
@@ -206,6 +228,40 @@ Restart frontend and backend after adding env files.
 8. Ask questions in the Enterprise RAG assistant.
 9. Check citations in the answer sources.
 10. Export structured JSON for downstream business workflows.
+
+## Troubleshooting
+
+### Failed to fetch
+
+This usually means the frontend cannot reach the backend.
+
+Check backend health:
+
+```text
+http://127.0.0.1:8010/api/health
+```
+
+If it does not return `200 OK`, start the backend again:
+
+```bash
+cd backend
+..\.venv\Scripts\python.exe -m uvicorn app.main:app --host 0.0.0.0 --port 8010
+```
+
+If the backend crashes with:
+
+```text
+ModuleNotFoundError: No module named 'fitz'
+```
+
+install/update dependencies:
+
+```bash
+cd backend
+..\.venv\Scripts\python.exe -m pip install -r requirements.txt
+```
+
+`fitz` is provided by `PyMuPDF`, which is used for OCR-assisted PDF page rendering.
 
 ## Deployment
 
